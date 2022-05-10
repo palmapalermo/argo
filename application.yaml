@@ -8,7 +8,7 @@ spec:
 
   source: 
     repoURL: https://github.com/palmapalermo/argo.git
-    targetRevison: HEAD
+    targetRevision: HEAD
 
   destination:
     server: https://kubernetes.default.svc

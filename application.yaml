@@ -1,6 +1,6 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
-metada:
+metadata:
   name: myapp-argo-application
   namespace: argocd
 spec:
@@ -21,5 +21,5 @@ spec:
     automated:
       selfHeal: true
       prune: true
-      
+
 
